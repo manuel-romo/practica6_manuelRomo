@@ -161,15 +161,15 @@ article img{
     font-size: 0.7em;
 }
 
-input:invalid{
+input:user-invalid{
     border:2px solid var(--color-resaltado-rojo);
 }
 
-#div_cuenta select:invalid{
+#div_cuenta select:user-invalid{
     border:2px solid var(--color-resaltado-rojo);
 }
 
-#div_ingreso_dob input:invalid{
+#div_ingreso_dob input:user-invalid{
     border:2px solid var(--color-resaltado-rojo);
 }
 
