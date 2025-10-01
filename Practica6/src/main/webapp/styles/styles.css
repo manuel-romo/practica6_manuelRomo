@@ -15,6 +15,7 @@ body{
     --color-resaltado-amarillo:#EDF67D;
     --color-resaltado-rojo:#E27E7C;
     --color-encabezados-tabla-usuarios:#EDC2EA;
+    --color-correo-electronico:#EDC2EA;
     --color-filas-pares-tabla-usuarios:#6185B8;
     --color-borde-tabla-usuarios:#919191;
 }
@@ -279,6 +280,11 @@ input:user-invalid{
 
 #h3_titulo_comunidad{
     padding: 1% 0;
+}
+
+#tabla_usuarios span{
+    color: var(--color-correo-electronico);
+    text-decoration: underline;
 }
 
 footer{
