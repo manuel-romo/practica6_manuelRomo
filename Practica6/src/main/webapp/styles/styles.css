@@ -161,7 +161,7 @@ article img{
     font-size: 0.7em;
 }
 
-input:required{
+input:invalid{
     border:2px solid var(--color-resaltado-rojo);
 }
 
